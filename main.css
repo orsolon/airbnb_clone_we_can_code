@@ -26,8 +26,6 @@ nav {
 
 img .logo {
     align-items: center;
-    width: 18%;
-    height: 20%;
 }
 
 .menu {
@@ -43,7 +41,7 @@ img .logo {
 .menu li {
     display: block;
     padding: 1rem;
-    margin-left: 110px;
+    margin-left: 80px;
 
 }
 
