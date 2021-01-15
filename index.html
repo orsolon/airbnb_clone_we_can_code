@@ -10,7 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- Font  -->
-    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;1,700&display=swap" rel="stylesheet">  
+    
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@500;700&display=swap" rel="stylesheet">
     <!-- css  -->
     <link rel="stylesheet" href="main.css">
 
@@ -36,82 +37,42 @@
         </nav>
     </header>
 
+   
+  
     <main>
 
         <div class="row container">
             <div class="col-8 cards">
                 <h1>Acomodações na área do mapa selecionada</h1>
-                <hr>
+              
+
                 <div class="card mb-3 " style="max-width: 840px;">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <img src="..." alt="...">
+                        <img id="photo" src="" alt="">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          <h5 class="card-title" id="name"></h5>
+                          <p class="card-text" id="type"></p>
+                          <p class="card-text"><small class="text-muted" id="price"></small></p>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  
-                  <div class="card mb-3" style="max-width: 840px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="..." alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  </div>  
 
-                  <div class="card mb-3 " style="max-width: 840px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="..." alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
             </div>
             <div class="col-4 map">
-              map
+               
+              <a title="TastyCakes, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Free_b_Map.svg"><img width="512" alt="Free b Map" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Free_b_Map.svg/512px-Free_b_Map.svg.png"></a>
+              
             </div>
           </div>
 
-        <!-- <div class="flex-container">
-            <div class="cards">
-                <h1>Acomodações na área do mapa selecionada</h1>
-                <hr>
-                <div class="card">
-                    <img src="" alt="">
-                    <div class="descricao">
-                        <p>
-
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="map">2</div>
-            
-          </div> -->
-
+      
     </main>
-    
+    <script src="script.js"></script>
+
 </body>
 </html>

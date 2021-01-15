@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Sarabun', sans-serif;
+    font-family: 'Hind Guntur', sans-serif;
     color: rgb(56, 55, 55)
 }
 
@@ -76,14 +76,17 @@ img .logo {
 }
 
 
-.flex-container {
-    display: flex;
-    padding: 1.5rem;
-}
-
-
 
 h1 {
-    font-weight: 700;
-    margin: 2rem;
+    font-weight: 500;
+    margin: 1.6rem;
+}
+
+.map a img {
+    margin-top: 2rem;
+    
+}
+
+#photo {
+    width: 100%;
 }
